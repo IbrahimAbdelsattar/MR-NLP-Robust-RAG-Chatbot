@@ -1,0 +1,5 @@
+# Development Tools
+pyngrok>=7.0.0
+
+# Optional: For advanced graph-based RAG
+neo4j>=5.0.0
