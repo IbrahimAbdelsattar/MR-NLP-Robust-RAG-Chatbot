@@ -1,384 +1,221 @@
-# MR NLP Robust RAG Chatbot
+<br/><br/>
 
-A state-of-the-art **Retrieval-Augmented Generation (RAG)** chatbot developed during an NLP internship at NTI. This project combines advanced language models with robust knowledge retrieval systems to deliver accurate, context-aware AI responses with multiple embedding system fallbacks.
+<!-- Animated Title -->
+<a href="#">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=36&pause=1000&color=7C3AED&center=true&vCenter=true&width=800&lines=Mr Nlp Robust Rag Chatbot+%F0%9F%9A%80;Enterprise+Data+Science+%26+AI;Interactive+Analytics+%26+ML;Built+by+Ibrahim+Abdelsattar" alt="Typing SVG"/>
+</a>
 
-## Features
+<br/>
 
-**Multi-System Embedding Fallbacks**
-- Primary: SentenceTransformers for semantic understanding
-- Fallback: Direct Transformers with mean pooling
-- Final: TF-IDF for keyword-based matching
-- Automatic system selection based on compatibility
+<p align="center">
+  <b>Enterprise-Grade Data Science & Software Engineering Solution</b><br/>
+  <i>Data Analysis Frameworks · Python 3.10+</i>
+</p>
 
-**Advanced Language Model Integration**
-- Qwen 1.5-1.8B model with 4-bit quantization support
-- Optimized for both CPU and GPU deployment
-- Smart caching for improved response times
-- Configurable generation parameters
+<br/>
 
-**Robust Document Processing**
-- ChromaDB vector database integration
-- PDF document parsing and chunking
-- Semantic similarity search with adjustable thresholds
-- Source attribution with relevance scores
+<!-- Badges Row -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Data%20Analysis%20Frameworks-7C3AED?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python%203.10+-7C3AED?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/License-Academic-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge"/>
+</p>
 
-**Voice Interaction Capabilities**
-- Whisper-powered speech-to-text
-- Multi-language text-to-speech (gTTS)
-- Real-time audio processing
-- Configurable audio settings
+<br/>
 
-**Modern Interface**
-- Streamlit-based interactive web application
-- Real-time system status monitoring
-- Performance metrics and analytics
-- Responsive design with custom styling
+<!-- Quick Links -->
+<p align="center">
+  <a href="#-overview"><img src="https://img.shields.io/badge/📌-Overview-7C3AED?style=flat-square"/></a>
+  &nbsp;
+  <a href="#-core-features"><img src="https://img.shields.io/badge/🔥-Features-E11D48?style=flat-square"/></a>
+  &nbsp;
+  <a href="#%EF%B8%8F-system-architecture"><img src="https://img.shields.io/badge/🏗️-Architecture-0891B2?style=flat-square"/></a>
+  &nbsp;
+  <a href="#-technical-stack"><img src="https://img.shields.io/badge/⚙️-Tech%20Stack-16A34A?style=flat-square"/></a>
+  &nbsp;
+  <a href="#-getting-started"><img src="https://img.shields.io/badge/🚀-Getting%20Started-F59E0B?style=flat-square"/></a>
+</p>
 
-## Tech Stack
+<br/>
 
-**Core Technologies**
-- Python 3.8+
-- PyTorch for deep learning
-- Transformers library for language models
-- ChromaDB for vector storage
+---
 
-**NLP & ML Libraries**
-- SentenceTransformers
-- Hugging Face Transformers
-- LlamaIndex for RAG orchestration
-- scikit-learn for TF-IDF fallback
+## 📌 Overview
 
-**Audio Processing**
-- OpenAI Whisper for speech recognition
-- Google Text-to-Speech (gTTS)
-- Audio recording with streamlit-audiorecorder
+**Mr Nlp Robust Rag Chatbot** is an advanced software and data science repository engineered by **Ibrahim Abdelsattar**. It implements end-to-end data processing pipelines, predictive machine learning models, and production-ready code structures tailored for analytical precision and operational reliability.
 
-**Web Interface**
-- Streamlit for interactive UI
-- Custom CSS styling
-- Real-time status updates
+> Designed for seamless integration, high scalability, and robust computational performance.
 
-## Installation
+---
 
-### Quick Setup
+## 🎯 Problem & Solution Architecture
 
-1. **Clone the repository:**
-   ```bash
-   git clone <your-repository-url>
-   cd mr-nlp-rag-chatbot
-   ```
+<table>
+<tr>
+<td width="50%">
 
-2. **Run automated setup:**
-   ```bash
-   python setup.py
-   ```
+### ❌ The Challenge
 
-3. **Add your documents:**
-   - Place PDF files in the `data/` directory
-   - Update file paths in `config.py` if needed
+Traditional analytical approaches face critical operational limitations:
 
-4. **Launch the application:**
-   ```bash
-   python run.py
-   ```
+- 📉 Manual data wrangling and non-standardized preprocessing
+- 🔮 Lack of feature attribution and model explainability
+- ⚠️ Unoptimized hyperparameters leading to sub-optimal accuracy
+- 🔄 Inefficient deployment workflows and missing pipeline automation
 
-5. **Access the interface:**
-   Open your browser to `http://localhost:8501`
+</td>
+<td width="50%">
 
-### Manual Installation
+### ✅ Our Solution
 
-If you prefer manual setup:
+| Challenge | Implemented Solution |
+|-----------|----------------------|
+| Raw Data Noise | Automated cleaning & feature encoding |
+| Low Accuracy | Tuned ML ensembles & robust evaluation |
+| Deployment Gaps | Modular CLI/Web interfaces & reproducible scripts |
+| Missing Insights | Visual metric plots & structured reporting |
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🔥 Core Features
+
+<table>
+<tr>
+
+<td align="center" width="33%">
+<br/>
+<b>⚡ High Performance Architecture</b><br/><br/>
+Modular Code Structure<br/>
+Scalable Design Patterns<br/>
+Robust Error Handling<br/>
+Clean Interface Abstractions<br/><br/>
+</td>
+<td align="center" width="33%">
+<br/>
+<b>📊 Data Preprocessing & EDA</b><br/><br/>
+Automated Missing Value Imputation<br/>
+Feature Engineering & Scaling<br/>
+Outlier Detection & Removal<br/>
+Exploratory Data Analysis Plots<br/><br/>
+</td>
+<td align="center" width="33%">
+<br/>
+<b>🎯 Production Guardrails</b><br/><br/>
+Strict Input Validation<br/>
+Reproducible Seed Setting<br/>
+Model Artifact Persistence<br/>
+Comprehensive Logging<br/><br/>
+</td>
+</tr>
+</table>
+
+---
+
+## 🏗️ System Architecture & Data Flow
+
+<br/>
+
+```mermaid
+flowchart LR
+    A["📥 Data Ingestion
+Raw Datasets / Inputs"] --> B["🧹 Preprocessing & Cleaning
+Feature Scaling & Encoding"]
+    B --> C["⚙️ Feature Engineering
+Domain Transformation"]
+    C --> D["🤖 Machine Learning Pipeline
+Model Training & Evaluation"]
+    D --> E["📊 Predictive Output & Metrics
+Interactive Dashboard / Reports"]
+    style A fill:#1e1b4b,color:#a5b4fc
+    style B fill:#312e81,color:#c7d2fe
+    style D fill:#1e3a5f,color:#93c5fd
+    style E fill:#14532d,color:#86efac
+```
+
+---
+
+## ⚙️ Technical Stack
+
+<div align="center">
+
+| Layer | Technology | Purpose |
+|-------|-----------|---------|
+| **Data Analysis Frameworks** | Core Framework / Library | Primary computing and analytical engine |
+| **Python 3.10+** | Core Framework / Library | Primary computing and analytical engine |
+
+</div>
+
+---
+
+
+
+## 📁 Directory Structure
+
+<details>
+<summary><b>📂 Click to expand repository tree</b></summary>
+
+```
+MR-NLP-Robust-RAG-Chatbot/
+├── README.md
+├── app.py
+├── config.py
+├── document_processor.py
+├── embedding_systems.py
+├── model_manager.py
+├── rag_system.py
+├── requirements.txt
+├── setup.py
+├── utils.py
+```
+
+</details>
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.10+ (or Node.js 18+ for web apps)
+- Git & Virtualenv
+
+### Installation & Execution
 
 ```bash
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+# 1. Clone the repository
+git clone https://github.com/IbrahimAbdelsattar/MR-NLP-Robust-RAG-Chatbot.git
+cd MR-NLP-Robust-RAG-Chatbot
 
-# Install dependencies
+# 2. Set up virtual environment (Python)
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+
+# 3. Install dependencies
 pip install -r requirements.txt
 
-# Create directories
-mkdir -p data models embeddings storage temp logs
-
-# Run the application
-streamlit run app.py
+# 4. Launch project execution
+python main.py
 ```
 
-### Docker Deployment
+---
 
-For containerized deployment:
+## 👤 Author & Contact
 
-```bash
-# Build and run with Docker Compose
-docker-compose up --build
+<div align="center">
 
-# Or build manually
-docker build -t mr-nlp-rag-chatbot .
-docker run -p 8501:8501 -v ./data:/app/data mr-nlp-rag-chatbot
-```
+**Ibrahim Abdelsattar**  
+*Data Scientist & AI Specialist · MTI University (CS & AI, GPA 3.5)*
 
-## Configuration
+[Email](mailto:ibrahimabdelsattar042@gmail.com) · [GitHub](https://github.com/IbrahimAbdelsattar) · [LinkedIn](https://linkedin.com/in/ibrahim-abdelsattar)
 
-### Environment Variables
+<br/>
 
-Create a `.env` file in the project root:
+<img src="https://img.shields.io/badge/Made%20with-Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Maintained%20by-Ibrahim%20Abdelsattar-7C3AED?style=for-the-badge"/>
 
-```bash
-# Optional: LlamaIndex Cloud API Key
-LLAMA_CLOUD_API_KEY=your_llama_cloud_api_key
-
-# Optional: Ngrok token for public deployment
-NGROK_AUTH_TOKEN=your_ngrok_auth_token
-
-# Optional: HuggingFace token for private models
-HUGGINGFACE_TOKEN=your_hf_token
-```
-
-### Model Configuration
-
-Edit `config.py` to customize:
-
-```python
-# Language Model Settings
-model.qwen_model_id = "Qwen/Qwen1.5-1.8B"
-model.max_new_tokens = 64
-model.temperature = 0.8
-
-# RAG Configuration
-rag.similarity_threshold = 0.7
-rag.top_k_documents = 3
-rag.max_context_length = 1000
-
-# Performance Options
-model.use_4bit = True  # Enable quantization
-enable_cache = True    # Response caching
-```
-
-### Document Setup
-
-1. **Add PDF documents** to the `data/` directory
-2. **Update PDF paths** in `config.py`:
-   ```python
-   PDF_PATHS = [
-       "./data/your_document1.pdf",
-       "./data/your_document2.pdf",
-       "./data/your_document3.pdf"
-   ]
-   ```
-3. **Restart the application** to reindex documents
-
-## Usage
-
-### Basic Chat Interface
-
-1. **Text Input**: Type questions directly in the text field
-2. **Voice Input**: Click the record button and speak your question
-3. **RAG Toggle**: Enable/disable document retrieval in the sidebar
-4. **Settings**: Adjust temperature, similarity threshold, and other parameters
-
-### Advanced Features
-
-**Embedding System Selection**
-- Choose between SentenceTransformers, Transformers, or TF-IDF
-- System automatically falls back if primary method fails
-- Real-time switching available in sidebar
-
-**Response Optimization**
-- Enable caching for faster repeated queries
-- Adjust similarity threshold for relevance control
-- Configure max tokens and temperature for response style
-
-**Source Attribution**
-- View retrieved document chunks with similarity scores
-- Expand sources to see full document content
-- Track which documents contributed to responses
-
-**Performance Monitoring**
-- Real-time memory usage tracking
-- Processing time measurements
-- Cache hit rate statistics
-- System resource monitoring
-
-## Project Structure
-
-```
-mr-nlp-rag-chatbot/
-├── app.py                    # Main Streamlit application
-├── config.py                 # Configuration management
-├── model_manager.py          # LLM and Whisper handling
-├── embedding_systems.py      # Multi-fallback embeddings
-├── rag_system.py            # RAG retrieval and generation
-├── document_processor.py    # PDF processing and indexing
-├── utils.py                 # System utilities and monitoring
-├── setup.py                 # Automated setup script
-├── run.py                   # Application launcher
-├── requirements.txt         # Python dependencies
-├── Dockerfile              # Container configuration
-├── docker-compose.yml      # Multi-container setup
-├── data/                   # Document storage
-├── models/                 # Model cache
-├── storage/               # Index persistence
-├── temp/                  # Temporary files
-└── logs/                  # Application logs
-```
-
-## System Requirements
-
-**Minimum Requirements**
-- Python 3.8 or higher
-- 8GB RAM (16GB recommended)
-- 10GB free disk space
-- Modern web browser
-
-**Recommended Setup**
-- CUDA-capable GPU with 8GB+ VRAM
-- 16GB+ system RAM
-- SSD storage for better performance
-- Stable internet connection for model downloads
-
-**Audio Requirements (Optional)**
-- Microphone for voice input
-- Speakers or headphones for TTS output
-- FFmpeg installed for audio processing
-
-## Embedding System Architecture
-
-The system implements a three-tier fallback approach for maximum compatibility:
-
-### Tier 1: SentenceTransformers (Primary)
-- Best semantic understanding and context awareness
-- Pre-trained on large-scale sentence similarity tasks
-- Requires compatible transformers and sentence-transformers versions
-
-### Tier 2: Direct Transformers (Fallback)
-- Uses mean pooling on transformer hidden states
-- Works with basic transformers installation
-- Good semantic understanding with broader compatibility
-
-### Tier 3: TF-IDF (Final Fallback)
-- Traditional keyword-based vector similarity
-- Always available, no deep learning dependencies
-- Effective for keyword matching and term-based queries
-
-The system automatically detects which embedding method works in your environment and falls back gracefully if needed.
-
-## Troubleshooting
-
-### Common Issues
-
-**Model Loading Failures**
-```bash
-# Check available memory
-python -c "import psutil; print(f'Available RAM: {psutil.virtual_memory().available/1024**3:.1f}GB')"
-
-# Try CPU-only mode
-# In sidebar: Enable "Force CPU Only"
-
-# Check GPU memory (if using CUDA)
-python -c "import torch; print(f'GPU memory: {torch.cuda.get_device_properties(0).total_memory/1024**3:.1f}GB' if torch.cuda.is_available() else 'No GPU')"
-```
-
-**Embedding System Errors**
-- Switch embedding method in sidebar settings
-- TF-IDF fallback should always work
-- Check HuggingFace model availability
-- Verify internet connection for model downloads
-
-**Audio Processing Issues**
-```bash
-# Install FFmpeg (required for audio)
-# Ubuntu/Debian:
-sudo apt-get install ffmpeg
-
-# macOS:
-brew install ffmpeg
-
-# Windows: Download from https://ffmpeg.org/
-```
-
-**Memory Issues**
-- Enable 4-bit quantization in sidebar
-- Reduce max context length
-- Use fewer retrieved documents
-- Switch to CPU-only mode
-
-**ChromaDB Connection Problems**
-- Check write permissions in project directory
-- Ensure no other processes are using the database
-- Delete and recreate storage directory if corrupted
-
-### Performance Optimization
-
-**For GPU Users:**
-- Enable 4-bit quantization to reduce memory usage
-- Use larger batch sizes for document processing
-- Keep temperature lower for more consistent responses
-
-**For CPU Users:**
-- Reduce context window size
-- Use fewer retrieved documents (top_k = 1-2)
-- Enable response caching
-- Consider using TF-IDF embedding method
-
-**For Production:**
-- Use Docker deployment for resource isolation
-- Set up proper logging and monitoring
-- Configure appropriate memory limits
-- Use external vector database for large document collections
-
-## Development
-
-### Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Make your changes with appropriate tests
-4. Update documentation as needed
-5. Submit a pull request with detailed description
-
-### Testing
-
-```bash
-# Run system validation
-python -c "from utils import validate_system_requirements; print(validate_system_requirements())"
-
-# Test embedding systems
-python -c "from embedding_systems import create_embedding_system; system = create_embedding_system(); print(system.get_system_info())"
-
-# Check model loading
-python -c "from model_manager import create_model_manager; manager = create_model_manager(); print(manager.load_qwen_model())"
-```
-
-### Adding New Features
-
-The modular architecture makes it easy to extend:
-
-- **New Embedding Systems**: Add to `embedding_systems.py`
-- **Different LLMs**: Extend `model_manager.py`
-- **Additional Document Types**: Modify `document_processor.py`
-- **UI Enhancements**: Update `app.py`
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-This project was developed during an NLP internship at the National Training Institute (NTI). Special thanks to:
-
-- **NTI** for providing the internship opportunity and resources
-- **Qwen Team** at Alibaba for the excellent language model
-- **ChromaDB** team for the vector database capabilities
-- **Streamlit** team for the interactive web framework
-- **Open source community** for the foundational libraries and tools
-
-## Support and Contact
-
-For technical support, feature requests, or collaboration opportunities:
-
-- Check the troubleshooting section above
-- Review system status indicators in the application
-- Examine logs in the `logs/` directory for detailed error information
-- Submit issues through the project repository
-
-**Built for Advanced NLP Applications with Robust Error Handling and Professional Architecture**
+</div>
